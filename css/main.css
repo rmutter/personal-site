@@ -90,6 +90,10 @@ html {
     color: white;
 }
 
+#cover-text span a {
+    color: rgb(0, 200, 200);
+}
+
 
 @media (max-width: 768px) {
     .navbar {
@@ -111,7 +115,7 @@ html {
     }
 
     #cover-container span {
-        font-size: 16px;
+        font-size: 19px;
         display: block;
         margin-bottom: 10px;
     }
@@ -119,8 +123,4 @@ html {
     #cover-container .glyphicon {
         display: none;
     }
-
-    /*#cover-image {*/
-        /*background: url(../img/rudy-lightning-mobile.jpg) center;*/
-    /*}*/
 }
